@@ -14,10 +14,8 @@ public interface PostMapper {
     PostResponse findById(Long id);
 
 
-
     //게시글 수정 @param params - 게시글 정보
     void update(PostRequest params);
-
 
 
     //게시글 삭제 @param id - PK
